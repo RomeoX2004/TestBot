@@ -56,7 +56,11 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
-        InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇ", url=f"https://t.me/{UPDATE_CHANNEL}"),   
+        InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇ", url=f"https://t.me/{UPDATE_CHANNEL}"),
+    ], 
+     [ 
+         InlineKeyboardButton( 
+             text="Help And Commands", callback_data="help"),   
     ], 
 ]
 
